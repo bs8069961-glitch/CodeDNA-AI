@@ -1,45 +1,17 @@
-# FastAPI
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
-starlette==0.38.6
 
-# Configuration
 python-dotenv==1.0.1
 pydantic==2.9.2
-pydantic-settings==2.6.0
 
-# AI
-google-generativeai==0.8.3
-
-# Vector Database
 chromadb==0.5.5
 
-# Embeddings
-sentence-transformers==3.1.1
-transformers==4.44.2
-torch==2.4.1
+google-generativeai==0.8.3
 
-# Git Repository Processing
-GitPython==3.1.43
-
-# Graph Analysis
 networkx==3.3
 
-# HTTP
-requests==2.32.3
-httpx==0.27.2
+sentence-transformers==3.1.1
+torch==2.13.0
 
-# Authentication
-Authlib==1.3.2
-PyGithub==2.4.0
-
-# Utilities
+rich==13.9.2
 numpy==2.1.1
-tqdm==4.66.5
-python-multipart==0.0.9
-
-# Parser
-tree-sitter==0.23.2
-
-# Server
-watchfiles==0.24.0
